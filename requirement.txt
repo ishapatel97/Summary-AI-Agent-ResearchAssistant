@@ -1,0 +1,10 @@
+faiss-cpu
+numpy
+requests
+langchain
+fastapi
+uvicorn
+python-dotenv
+langchain-community
+streamlit
+sentence-transformers
