@@ -1,6 +1,15 @@
 # Summary: AI Agent ResearchAssistant
 
-This project is an SUmmary: AI Agent ResearchAssistant built with Streamlit using an AI agent utilizing the Grok API (via `langchain_groq`) for natural language processing and the Semantic Scholar API for retrieving research papers. The AI agent, based on Grok's language model (`Llama3-8b-8192`), collaborates with FAISS for efficient similarity search and SentenceTransformer embeddings to rank summaries, enabling researchers to summarize, refine, and evaluate academic papers interactively. It’s designed to streamline literature reviews and support collaborative research workflows. For enhanced performance, you can optionally use OpenAI (a paid service) instead of Grok, though the default setup with Grok is free and effective.
+## UI Load
+![UI Load](./images/UI_load.png)
+
+## Authentication
+![Authentication](./images/authentication.png)
+
+## Refine
+![Refine](./images/refine.png)
+
+This project is an Summary: AI Agent ResearchAssistant built with Streamlit using an AI agent utilizing the Grok API (via `langchain_groq`) for natural language processing and the Semantic Scholar API for retrieving research papers. The AI agent, based on Grok's language model (`Llama3-8b-8192`), collaborates with FAISS for efficient similarity search and SentenceTransformer embeddings to rank summaries, enabling researchers to summarize, refine, and evaluate academic papers interactively. It’s designed to streamline literature reviews and support collaborative research workflows. For enhanced performance, you can optionally use OpenAI (a paid service) instead of Grok, though the default setup with Grok is free and effective.
 
 ## Setup Instructions
 1. **Prerequisites**: Ensure Python is installed on your system.
