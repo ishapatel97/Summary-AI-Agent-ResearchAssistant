@@ -1,8 +1,5 @@
 # Summary: AI Agent ResearchAssistant
 
-## UI Load
-![UI Load](./UI_load.png)
-
 ## Authentication
 ![Authentication](./authentication.png)
 
