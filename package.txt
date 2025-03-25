@@ -1,3 +1,4 @@
+swig
 libblas-dev
 liblapack-dev
 g++
