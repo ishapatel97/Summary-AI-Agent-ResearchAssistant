@@ -1,4 +1,4 @@
-##python -m streamlit run boon.py
+##python -m streamlit run summary_ai_agent.py
 import faiss
 import numpy as np
 import requests
