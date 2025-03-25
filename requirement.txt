@@ -1,4 +1,4 @@
-faiss-cpu
+faiss-cpu==1.7.1
 numpy
 requests
 langchain
