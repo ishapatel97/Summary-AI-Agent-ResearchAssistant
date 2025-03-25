@@ -23,7 +23,7 @@ This project is an Summary: AI Agent ResearchAssistant built with Streamlit usin
      ```
 5. **Run the App**: Launch the Streamlit application:
      ```bash
-     python -m streamlit run boon.py
+     python -m streamlit run summary_ai_agent.py
      ```
 
 ## Features
