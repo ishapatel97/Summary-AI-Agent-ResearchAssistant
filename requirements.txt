@@ -1,5 +1,5 @@
+faiss-cpu==1.10.0
 numpy==1.26.4
-faiss-cpu==1.7.4
 requests
 langchain
 fastapi
