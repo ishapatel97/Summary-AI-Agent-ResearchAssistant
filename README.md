@@ -1,5 +1,7 @@
 # Summary: AI Agent ResearchAssistant
 
+App link: https://summary-ai-agent-isha-patel.streamlit.app/
+
 ## Authentication
 ![Authentication](./authentication.png)
 
