@@ -13,17 +13,18 @@ import tensorflow as tf
 tf.get_logger().setLevel('ERROR')
 
 load_dotenv()
-groq_api_key = os.getenv("GROQ_API_KEY")
-if not groq_api_key:
-    raise ValueError("No Groq API key found in .env file!")
+#groq_api_key = os.getenv("GROQ_API_KEY")
+#if not groq_api_key:
+#    raise ValueError("No Groq API key found in .env file!")
 
 # Sidebar for API key input
 st.sidebar.title("API Key Required")
 user_api_key = st.sidebar.text_input("Enter Groq API Key", type="password")
-api_key_valid = user_api_key == groq_api_key
+#api_key_valid = user_api_key == groq_api_key
+groq_api_key = api_key_valid = user_api_key
 
 # Load LLM only if API key is valid
-if api_key_valid:
+if groq_api_key:
     llm = ChatGroq(groq_api_key=groq_api_key, model_name="Llama3-8b-8192")
     st.sidebar.write("LLM loaded: ", llm.invoke("Hello!").content)
     model = SentenceTransformer('all-MiniLM-L6-v2')
